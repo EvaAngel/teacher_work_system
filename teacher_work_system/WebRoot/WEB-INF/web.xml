@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>teacher_work_system</display-name>
+  <servlet>
+    <servlet-name>TeacherLoginServlet</servlet-name>
+    <servlet-class>com.tws.servlet.TeacherLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WorkMessageServlet</servlet-name>
+    <servlet-class>com.tws.servlet.WorkMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WorkTitleMessageServlet</servlet-name>
+    <servlet-class>com.tws.servlet.WorkTitleMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WorkTitleMessageTwoServlet</servlet-name>
+    <servlet-class>com.tws.servlet.WorkTitleMessageTwoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WorkResearchManagerServlet</servlet-name>
+    <servlet-class>com.tws.servlet.WorkResearchManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WorkResearchManageTwoServlet</servlet-name>
+    <servlet-class>com.tws.servlet.WorkResearchManageTwoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CorrectWorkServlet</servlet-name>
+    <servlet-class>com.tws.servlet.CorrectWorkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CorrectWorkTwoServlet</servlet-name>
+    <servlet-class>com.tws.servlet.CorrectWorkTwoServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>TeacherLoginServlet</servlet-name>
+    <url-pattern>/TeacherLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkMessageServlet</servlet-name>
+    <url-pattern>/WorkMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkTitleMessageServlet</servlet-name>
+    <url-pattern>/WorkTitleMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkTitleMessageTwoServlet</servlet-name>
+    <url-pattern>/WorkTitleMessageTwoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkResearchManagerServlet</servlet-name>
+    <url-pattern>/WorkResearchManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkResearchManageTwoServlet</servlet-name>
+    <url-pattern>/WorkResearchManageTwoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CorrectWorkServlet</servlet-name>
+    <url-pattern>/CorrectWorkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CorrectWorkTwoServlet</servlet-name>
+    <url-pattern>/CorrectWorkTwoServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
